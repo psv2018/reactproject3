@@ -1,0 +1,95 @@
+html, body{
+    color:gray;
+    margin:0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 222, 220);
+}
+
+.logo {
+    display:inline-block;
+    vertical-align:top;
+    width:120px;
+    height:50px;
+    margin-right:70px;
+    margin-left:30px;
+    margin-top:15px;  
+} 
+
+.menu-container {
+    width: 100%;  
+    height: 80px;
+    color:gray;
+    background-color: white;
+    border-top:4px solid #00BCD4;
+    border-bottom:4px solid #00BCD4;
+    
+}
+
+.menu-container ul {
+    padding-left: 80px;
+    display:inline-block;
+    text-decoration: none;
+    vertical-align:top;
+    margin-top: 15px;    
+}
+
+.menu-container > a {
+     display: inline-block;
+     vertical-align: top;
+     height: 80px;        
+     line-height: 100px;    
+}    
+
+.menu-container  li{    
+list-style-type: none;  
+}
+.menu-container li:hover{
+    cursor:pointer;
+}
+#bit_coins{
+    margin-left:100px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin:20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+ tr:hover{
+    background-color: rgb(154, 227, 236);
+}
+th {
+    background-color: #00BCD4;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.hide-true  {
+    display: none;
+  }
+#myInput {
+    margin-top: 30px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 90%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  .buttons_for_sorting
+  {
+      text-align:center;
+  }
+  .buttons_for_sorting button{
+      background-color: #00BCD4;
+      margin-right:20px;
+      padding:10px;
+      border-radius:10px;
+      border-style: none;
+
+  }
+  
